@@ -7,8 +7,8 @@ include ("config.php");
 	<meta charset="utf-8">
 	<title>Ni'am Tamami S.ST., M.T.</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author" content="">
+	<meta name="description" content="Ni'am Tamamami personal lecture web">
+	<meta name="author" content="nitbot.com">
 
 	<!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
 	<!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
@@ -177,6 +177,16 @@ include ("config.php");
 				<div class="list-group-item"><?php echo $myPublication[$i-1];?></div>
 				<?php } ?>
 			</div>
+			<div>
+					<h2>
+						Research Interest
+					</h2>
+					<p>
+						<?php echo $researchArtikel;?>
+					</p>
+					<img src="myimg/myResearch/1.jpg" class="thumbnail" alt="Research Interest">
+					<img href="http://iot.nitbot.com/" src="http://nitbot.com/image/cache/catalog/banner/iot-1140x380.png" class="thumbnail" alt="Research Interest">
+			</div>
 			<div class="list-group">
 				<a href="#" class="list-group-item active"><h2>Other</h2></a>
 				<div class="list-group-item">
@@ -198,7 +208,7 @@ include ("config.php");
 						<?php echo $miniArtikel1[1];?>
 					</p>
 					<p>
-						<a class="btn" href="http://iot.nitbot.com">View details »</a>
+						<a class="btn" href=<?php echo $miniArtikel1[2];?>>View details »</a>
 					</p>
 					<h2>
 						<?php echo $miniArtikel2[0];?>
@@ -215,35 +225,35 @@ include ("config.php");
 							</ol>
 							<div class="carousel-inner">
 								<div class="item active">
-									<img alt="" src="myGal/1.jpg">
+									<img alt="" src="myimg/myGal/1.jpg">
 									<div class="carousel-caption">
 										<h4>
-											<?php echo $myResearchTitle1; ?>
+											<?php echo ""; ?>
 										</h4>
 										<p>
-											<?php echo $myResearchDescrip1; ?>
+											<?php echo $myweb; ?>
 										</p>
 									</div>
 								</div>
 								<div class="item">
-									<img alt="" src="myGal/2.jpg">
+									<img alt="" src="myimg/myGal/2.jpg">
 									<div class="carousel-caption">
 										<h4>
-											<?php echo $myResearchTitle2; ?>
+											<?php echo ""; ?>
 										</h4>
 										<p>
-											<?php echo $myResearchDescrip2; ?>
+											<?php echo $myweb; ?>
 										</p>
 									</div>
 								</div>
 								<div class="item">
-									<img alt="" src="myGal/3.jpg">
+									<img alt="" src="myimg/myGal/3.jpg">
 									<div class="carousel-caption">
 										<h4>
-											<?php echo $myResearchTitle3; ?>
+											<?php echo ""; ?>
 										</h4>
 										<p>
-											<?php echo $myResearchDescrip3; ?>
+											<?php echo $myweb; ?>
 										</p>
 									</div>
 								</div>
@@ -251,7 +261,7 @@ include ("config.php");
 						</div>
 					</p>
 					<p>
-						<a class="btn" href="#">View details »</a>
+						<a class="btn" href=<?php echo $miniArtikel2[2];?>>View details »</a>
 					</p>
 					<h2>
 						<?php echo $miniArtikel3[0];?>
@@ -260,7 +270,7 @@ include ("config.php");
 						<?php echo $miniArtikel3[1];?>
 					</p>
 					<p>
-						<a class="btn" href="#">View details »</a>
+						<a class="btn" href=<?php echo $miniArtikel3[2];?>>View details »</a>
 					</p>
 				</div>
 				<div class="col-md-4">
@@ -279,35 +289,35 @@ include ("config.php");
 							</ol>
 							<div class="carousel-inner">
 								<div class="item active">
-									<img alt="" src="myFam/1.jpg">
+									<img alt="" src="myimg/myFam/1.jpg">
 									<div class="carousel-caption">
 										<h4>
-											<?php echo $myResearchTitle1; ?>
+											<?php echo ""; ?>
 										</h4>
 										<p>
-											<?php echo $myResearchDescrip1; ?>
+											<?php echo $myweb; ?>
 										</p>
 									</div>
 								</div>
 								<div class="item">
-									<img alt="" src="myFam/2.jpg">
+									<img alt="" src="myimg/myFam/2.jpg">
 									<div class="carousel-caption">
 										<h4>
-											<?php echo $myResearchTitle2; ?>
+											<?php echo ""; ?>
 										</h4>
 										<p>
-											<?php echo $myResearchDescrip2; ?>
+											<?php echo $myweb; ?>
 										</p>
 									</div>
 								</div>
 								<div class="item">
-									<img alt="" src="myFam/3.jpg">
+									<img alt="" src="myimg/myFam/3.jpg">
 									<div class="carousel-caption">
 										<h4>
-											<?php echo $myResearchTitle3; ?>
+											<?php echo ""; ?>
 										</h4>
 										<p>
-											<?php echo $myResearchDescrip3; ?>
+											<?php echo $myweb; ?>
 										</p>
 									</div>
 								</div>
@@ -315,7 +325,7 @@ include ("config.php");
 						</div>
 					</p>
 					<p>
-						<a class="btn" href="#">View details »</a>
+						<a class="btn" href=<?php echo $miniArtikel4[2];?>>View details »</a>
 					</p>
 					<h2>
 						<?php echo $miniArtikel5[0];?>
@@ -324,7 +334,7 @@ include ("config.php");
 						<?php echo $miniArtikel5[1];?>
 					</p>
 					<p>
-						<a class="btn" href="#">View details »</a>
+						<a class="btn" href=<?php echo $miniArtikel5[2];?>>View details »</a>
 					</p>
 					<h2>
 						<?php echo $miniArtikel6[0];?>
@@ -334,7 +344,7 @@ include ("config.php");
 					</p>
 					<iframe src="https://calendar.google.com/calendar/embed?src=8bqvflkdkcsdfpn6o3rms6i6io%40group.calendar.google.com&ctz=Europe/London" style="border: 0" width="300" height="300" frameborder="0" scrolling="no"></iframe>
 					<p>
-						<a class="btn" href="#">View details »</a>
+						<a class="btn" href=<?php echo $miniArtikel6[2];?>>View details »</a>
 					</p>
 				</div>
 				<div class="col-md-4">
@@ -350,14 +360,16 @@ include ("config.php");
 					</p>
 				</div>
 
-				<address> 
-					<strong>Ni'am Tamami</strong>
-					<br><a href="niam@pens.ac.id">niam@pens.ac.id</a> <a href="niamtamami@gmail.com"> | niamtamami@gmail.com</a> 
-					<br><a href="http://www.nitbot.com/">nitbot.com</a>
-					<br> Lab. AI Robotika D-104
-					<br> Kampus PENS
-					<br>Jl Raya ITS, Sukolilo, Surabaya 60111, Jawa Timur</address>
-				</div>
 			</div>
-		</body>
-		</html>
+		</div>
+			<address> 
+		<strong>Ni'am Tamami</strong>
+		<br><a href="niam@pens.ac.id">niam@pens.ac.id</a> <a href="niamtamami@gmail.com"> | niamtamami@gmail.com</a> 
+		<br><a href="http://www.nitbot.com/">nitbot.com</a>
+		<br> Lab. AI Robotika D-104
+		<br> Kampus PENS
+		<br>Jl Raya ITS, Sukolilo, Surabaya 60111, Jawa Timur
+	</address>
+	</div>
+</body>
+</html>
