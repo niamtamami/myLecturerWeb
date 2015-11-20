@@ -7,7 +7,7 @@ include ("config.php");
 	<meta charset="utf-8">
 	<title>Ni'am Tamami S.ST., M.T.</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="Ni'am Tamamami personal lecture web">
+	<meta name="description" content="Ni'am Tamami personal lecture web">
 	<meta name="author" content="nitbot.com">
 
 	<!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
@@ -58,7 +58,7 @@ include ("config.php");
 								<a href="<?php echo $mygithub; ?>">Github</a>
 							</li>
 							<li>
-								<a href="<?php echo $myrepo; ?>">Download</a>
+								<a href="<?php echo $myrepo; ?>">Repository</a>
 							</li>
 							<li>
 								<a href="<?php echo $myteachingmaterial; ?>">TeachingMaterial</a>
@@ -72,7 +72,6 @@ include ("config.php");
 									<li>
 										<a href="<?php echo $myyoutube; ?>">Youtube</a>
 									</li>
-
 									<li class="divider">
 									</li>
 									<li>
@@ -82,6 +81,9 @@ include ("config.php");
 										<a href="<?php echo $mygmail; ?>"><?php echo $mygmail; ?></a>
 									</li>
 								</ul>
+							</li>
+													<li>
+								<a href="<?php echo $mycv; ?>">myCV</a>
 							</li>
 							<li class="active">
 								<a href="<?php echo $myabout; ?>">About Me</a>
@@ -185,7 +187,7 @@ include ("config.php");
 						<?php echo $researchArtikel;?>
 					</p>
 					<img src="myimg/myResearch/1.jpg" class="thumbnail" alt="Research Interest">
-					<img href="http://iot.nitbot.com/" src="http://nitbot.com/image/cache/catalog/banner/iot-1140x380.png" class="thumbnail" alt="Research Interest">
+					<a href="http://iot.nitbot.com/"><img src="http://nitbot.com/image/cache/catalog/banner/iot-1140x380.png" class="thumbnail" alt="Research Interest"></a>
 			</div>
 			<div class="list-group">
 				<a href="#" class="list-group-item active"><h2>Other</h2></a>

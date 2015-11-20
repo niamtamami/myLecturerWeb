@@ -7,11 +7,12 @@ $myblog="http://blog.nitbot.com/";
 $myabout="http://niam.lecturer.pens.ac.id/";
 $myemail="niam@pens.ac.id";
 $mygmail="niamtamami@gmail.com";
-$myrepo="https://goo.gl/T5v1BK";
+$myrepo="https://goo.gl/4hE9Cd";
 $myteachingmaterial = "https://goo.gl/uIA30J";
+$mycv = "https://goo.gl/rGtY8X";
 
 $myPersonalDescrip="
-<strong>Ni'am Tamami</strong> was born in Kediri, East Java, Indonesia in 1990. He received an S.ST. (Bachelor) degree in Applied Electronics Engineering from Politeknik Elektronika Negeri Surabaya (PENS) in 2012. He joined Politeknik Elektronika Negeri Surabaya (PENS) as lecturer in 2012. He received an M.T. (Master) degree in Applied Electronics Engineering from Politeknik Elektronika Negeri Surabaya (PENS) in 2014. He is now still active as D3 and D4 (3 and 4 years diploma) program lecturer, especially in Electronic Department. His teaching subjects are including (see my Theaching Material)
+<strong>Ni'am Tamami</strong> was born in Kediri, East Java, Indonesia in 1990. He received an S.ST. (Bachelor) degree in Applied Electronics Engineering from Politeknik Elektronika Negeri Surabaya (PENS) in 2012. He joined Politeknik Elektronika Negeri Surabaya (PENS) as lecturer in 2012. He received an M.T. (Master) degree in Applied Electronics Engineering from Politeknik Elektronika Negeri Surabaya (PENS) in 2014. He is now still active as D3 and D4 (3 and 4 years diploma) program lecturer, especially in Electronic Department. His teaching subjects are including (see my Teaching Material)
 ";
 
 $myResearchTitle1="nitbot, it's me";
@@ -36,7 +37,7 @@ $researchArtikel = "My Research Focus is about smart device. Now I am doing some
 $miniArtikel1=array();
 $miniArtikel1[0]="my Internet of Things";
 $miniArtikel1[2]= "http://iot.nitbot.com";
-$miniArtikel1[1]="Now, my product of internet of things is focused to make a internet control system. Make automation system that can used by many people who want to make their home fully controlable via internet. Very interesting, IoT not only for college, but also many people that dont have coding skill can use it in their home";
+$miniArtikel1[1]="Now, my product of internet of things is focused to make a internet control system. Make automation system that can used by many people who want to make their home fully controllable via internet. Very interesting, IoT not only for college, but also many people that dont have coding skill can use it in their home";
 
 
 $miniArtikel2=array();
@@ -46,15 +47,15 @@ $miniArtikel2[1]="Many research with my student, there are making electrocardiog
 
 
 $miniArtikel3=array();
-$miniArtikel3[0]="my Robot";
-$miniArtikel3[2]= "#";
-$miniArtikel3[1]="I have a dream to make a opensource balancing robot platform, just wait :D.";
+$miniArtikel3[0]="my Experience";
+$miniArtikel3[2]= $mycv;
+$miniArtikel3[1]="Computer Networks, Sensor Actuator, Instrumentation, Intelligent Control System, Industrial Automation and Image Processing are my Theaching Experience in last 3 years. See my Curriculum Vitae?";
 
 
 $miniArtikel4=array();
-$miniArtikel4[0]="my Theaching Experience";
+$miniArtikel4[0]="my Robot";
 $miniArtikel4[2]= "#";
-$miniArtikel4[1]="Computer Networks, Sensor Actuator, Instrumentation, Intelligent Control System, Industrial Automation and Image Processing are my Theaching Experience in last 3 years.";
+$miniArtikel4[1]="";
 
 
 $miniArtikel5=array();
