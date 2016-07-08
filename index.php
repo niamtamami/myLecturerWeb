@@ -49,44 +49,44 @@ include ("config.php");
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav">
 							<li >
-								<a href="<?php echo $myweb; ?>">Web</a>
+								<a href="<?php echo $myweb; ?>" target="_blank">Web</a>
 							</li>
 							<li>
-								<a href="<?php echo $myblog; ?>">Blog</a>
+								<a href="<?php echo $myblog; ?>" target="_blank">Blog</a>
 							</li>
 							<li>
-								<a href="<?php echo $mygithub; ?>">Github</a>
+								<a href="<?php echo $mygithub; ?>" target="_blank">Github</a>
 							</li>
 							<li>
-								<a href="<?php echo $myrepo; ?>">Repository</a>
+								<a href="<?php echo $myrepo; ?>" target="_blank">Repository</a>
 							</li>
 							<li>
-								<a href="<?php echo $myteachingmaterial; ?>">TeachingMaterial</a>
+								<a href="<?php echo $myteachingmaterial; ?>" target="_blank">TeachingMaterial</a>
 							</li>
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">My Social Media<strong class="caret"></strong></a>
 								<ul class="dropdown-menu">
 									<li>
-										<a href="<?php echo $myfacebook; ?>">FaceBook</a>
+										<a href="<?php echo $myfacebook; ?>" target="_blank">FaceBook</a>
 									</li>
 									<li>
-										<a href="<?php echo $myyoutube; ?>">Youtube</a>
+										<a href="<?php echo $myyoutube; ?>" target="_blank">Youtube</a>
 									</li>
 									<li class="divider">
 									</li>
 									<li>
-										<a href="<?php echo $myemail; ?>"><?php echo $myemail; ?></a>
+										<a href="<?php echo $myemail; ?>" target="_blank"><?php echo $myemail; ?></a>
 									</li>
 									<li>
-										<a href="<?php echo $mygmail; ?>"><?php echo $mygmail; ?></a>
+										<a href="<?php echo $mygmail; ?>" target="_blank"><?php echo $mygmail; ?></a>
 									</li>
 								</ul>
 							</li>
 													<li>
-								<a href="<?php echo $mycv; ?>">myCV</a>
+								<a href="<?php echo $mycv; ?>" target="_blank">myCV</a>
 							</li>
 							<li class="active">
-								<a href="<?php echo $myabout; ?>">About Me</a>
+								<a href="<?php echo $myabout; ?>" target="_blank">About Me</a>
 							</li>
 						</ul>
 					</div>

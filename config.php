@@ -7,9 +7,9 @@ $myblog="http://blog.nitbot.com/";
 $myabout="http://niam.lecturer.pens.ac.id/";
 $myemail="niam@pens.ac.id";
 $mygmail="niamtamami@gmail.com";
-$myrepo="https://goo.gl/4hE9Cd";
-$myteachingmaterial = "https://goo.gl/uIA30J";
-$mycv = "https://goo.gl/rGtY8X";
+$myrepo="http://repository.nitbot.com";
+$myteachingmaterial = "http://teachingmaterial.nitbot.com";
+$mycv = "http://mycv.nitbot.com";
 
 $myPersonalDescrip="
 <strong>Ni'am Tamami</strong> was born in Kediri, East Java, Indonesia in 1990. He received an S.ST. (Bachelor) degree in Applied Electronics Engineering from Politeknik Elektronika Negeri Surabaya (PENS) in 2012. He joined Politeknik Elektronika Negeri Surabaya (PENS) as lecturer in 2012. He received an M.T. (Master) degree in Applied Electronics Engineering from Politeknik Elektronika Negeri Surabaya (PENS) in 2014. He is now still active as D3 and D4 (3 and 4 years diploma) program lecturer, especially in Electronic Department. His teaching subjects are including (see my Teaching Material)
@@ -36,43 +36,33 @@ $researchArtikel = "My Research Focus is about smart device. Now I am doing some
 
 $miniArtikel1=array();
 $miniArtikel1[0]="my Internet of Things";
-$miniArtikel1[2]= "http://iot.nitbot.com";
 $miniArtikel1[1]="Now, my product of internet of things is focused to make a internet control system. Make automation system that can used by many people who want to make their home fully controllable via internet. Very interesting, IoT not only for college, but also many people that dont have coding skill can use it in their home";
-
+$miniArtikel1[2]= "http://iot.nitbot.com";
 
 $miniArtikel2=array();
 $miniArtikel2[0]="my Student";
-$miniArtikel2[2]= "#";
 $miniArtikel2[1]="Many research with my student, there are making electrocardiograph instrument, make a fuel monitoring system, and etc.";
-
+$miniArtikel2[2]= "#";
 
 $miniArtikel3=array();
 $miniArtikel3[0]="my Experience";
+$miniArtikel3[1]="Computer Networks, Sensor Actuator, Instrumentation, Intelligent Control System, Industrial Automation and Image Processing are my Teaching Experience in last 3 years. See my Curriculum Vitae?";
 $miniArtikel3[2]= $mycv;
-$miniArtikel3[1]="Computer Networks, Sensor Actuator, Instrumentation, Intelligent Control System, Industrial Automation and Image Processing are my Theaching Experience in last 3 years. See my Curriculum Vitae?";
-
 
 $miniArtikel4=array();
 $miniArtikel4[0]="my Robot";
-$miniArtikel4[2]= "#";
 $miniArtikel4[1]="";
+$miniArtikel4[2]= "#";
 
 
 $miniArtikel5=array();
 $miniArtikel5[0]="my Lab";
-$miniArtikel5[2]= "#";
 $miniArtikel5[1]="My Lab is AI Robotic Lab, AI is artificial intelligency. Many research of robotic here, Intelligent Robotic Arm, Intelligent Mobile Robot, Quadcopter, EDF Rocket and etc.";
-
+$miniArtikel5[2]= "#";
 
 $miniArtikel6=array();
 $miniArtikel6[0]="my Activity";
-$miniArtikel6[2]= "#";
 $miniArtikel6[1]="Oke, silahkan cek agenda saya hari ini :)";
+$miniArtikel6[2]= "#";
 
 ?>
-
-
-
-
-
-
