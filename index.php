@@ -82,7 +82,10 @@ include ("config.php");
 									</li>
 								</ul>
 							</li>
-													<li>
+							<li>
+								<a href="<?php echo $timemachine; ?>" target="_blank">Time Machine</a>
+							</li>
+							<li>
 								<a href="<?php echo $mycv; ?>" target="_blank">myCV</a>
 							</li>
 							<li class="active">

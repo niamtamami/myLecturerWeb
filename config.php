@@ -10,6 +10,7 @@ $mygmail="niamtamami@gmail.com";
 $myrepo="http://repository.nitbot.com";
 $myteachingmaterial = "http://teachingmaterial.nitbot.com";
 $mycv = "http://mycv.nitbot.com";
+$timemachine = "https://goo.gl/photos/UqrdgR8T3mohiuDw6";
 
 $myPersonalDescrip="
 <strong>Ni'am Tamami</strong> was born in Kediri, East Java, Indonesia in 1990. He received an S.ST. (Bachelor) degree in Applied Electronics Engineering from Politeknik Elektronika Negeri Surabaya (PENS) in 2012. He joined Politeknik Elektronika Negeri Surabaya (PENS) as lecturer in 2012. He received an M.T. (Master) degree in Applied Electronics Engineering from Politeknik Elektronika Negeri Surabaya (PENS) in 2014. He is now still active as D3 and D4 (3 and 4 years diploma) program lecturer, especially in Electronic Department. His teaching subjects are including (see my Teaching Material)
