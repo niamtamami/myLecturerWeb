@@ -30,7 +30,9 @@ $myJournal[1] = "Tamami, Niam, Endra Pitowarno, and I. Gede Puja Astawa. “A Co
 $myJournal[0] = "Tamami, Niam, Endra Pitowarno, and I. Gede Puja Astawa. “Proportional Derivative Active Force Control for “X” Configuration Quadcopter.”, Journal of Mechatronics, Electrical Power, and Vehicular Technology 5, no. 2 (2014): 67-74.";
 
 $myPublication = array();
-$myPublication[1] ="Tamami, Niam, Endra Pitowarno, and I. Gede Puja Astawa. “Modelling and PD Control for “x” Configuration Quadcopter”, Indonesian Symposium on Robot Soccer Competition 2013 – June 6th , 2013."; 
+$myPublication[3] ="Ni'am Tamami; Paulus Susetyo Wardana; Rika Rokhana; Hendhi Hermawan. “Neural network classification of supraspinatus muscle electromyography feature signal”, International Electronics Symposium on Engineering Technology and Applications (IES-ETA) 2017, September 26th and 27th, 2017 : 223 - 228";
+$myPublication[2] ="Taufiqurrahman, Ni’am Tamami, Dito Adhi Putra, and Tri Harsono. “Smart sensor device for detection of water quality as anticipation of disaster environment pollution”, International Electronics Symposium (IES), September 29th and 30th, 2016";
+$myPublication[1] ="Tamami, Ni’am, Endra Pitowarno, and I. Gede Puja Astawa. “Modelling and PD Control for “x” Configuration Quadcopter”, Indonesian Symposium on Robot Soccer Competition 2013 – June 6th , 2013."; 
 $myPublication[0] ="Bambang Sumantri, Ni’am Tamami, Nofria Hanafi, Mohamad Nasyir Tamara and Endra Pitowarno. “Rancang Bangun Aktuator Pada Prototype Picosatellite Menggunakan Sistem Magnetorquer.”, The 14th Industrial Electronics Seminar 2012 (IES 2012) Electronic Engineering Polytechnic Institute of Surabaya (EEPIS), Indonesia, October 24, 2012 : 22-27";
 
 $researchArtikel = "My Research Focus is about smart device. Now I am doing some experiment to make smart home system and smart smart robotic home assistant. This years, my research still focus in Internet of Things device, see the web in http://iot.nitbot.com";
